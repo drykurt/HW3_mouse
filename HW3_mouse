@@ -1,0 +1,16 @@
+
+void setup() {
+  size(800,800);
+  background(10);
+}
+
+void draw() {
+  stroke(#CB6DA4);
+  strokeWeight (1);
+  if (mousePressed == true) {
+    line(300, 300, pmouseX, pmouseY);
+    
+    
+   
+  }
+}
